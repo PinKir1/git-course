@@ -2,53 +2,53 @@
 
 Setting up global Git configuration with user information and line ending preferences. Commands configure username, email, default branch name, and CRLF handling settings.
 <p align="center">
-  <img src="Screenshots/git-config.png" alt="Git config"/>
+  <img src="Screenshots/ (1)" alt="Git config"/>
 </p>
 
 Creating a working environment for the Git project. Using `mkdir work` to create a new directory, `cd work` to navigate into it, and `touch hello.html` to create an empty HTML file.
 <p align="center">
-  <img src="Screenshots/create-workspace.png" alt="Create workspace"/>
+  <img src="Screenshots/ (2)" alt="Create workspace"/>
 </p>
 
 Creating a simple HTML file named "hello.html" containing only the text "Hello, World" - the first file for our Git repository.
 <p align="center">
-  <img src="Screenshots/hello-html.png" alt="Hello HTML"/>
+  <img src="Screenshots/ (3)" alt="Hello HTML"/>
 </p>
 
 Initializing a new Git repository using `git init` command and making the first commit with hello.html file using `git add` and `git commit -m "Initial Commit"` commands.
 <p align="center">
-  <img src="Screenshots/git-init-commit.png" alt="Git init and commit"/>
+  <img src="Screenshots/ (4)" alt="Git init and commit"/>
 </p>
 
 Checking the repository status using `git status` command, which shows we're on the main branch with a clean working tree - meaning all changes are committed.
 <p align="center">
-  <img src="Screenshots/git-status.png" alt="Git status"/>
+  <img src="Screenshots/ (5)" alt="Git status"/>
 </p>
 
 
 Updating the HTML file with proper h1 tags to format "Hello, World!" as a heading.
 <p align="center">
-  <img src="Screenshots/(6).png" alt="(6)"/>
+  <img src="Screenshots/ (6).png" alt="(6)"/>
 </p>
 
 Checking Git status which shows there are unstaged changes in hello.html file that need to be committed.
 <p align="center">
-  <img src="Screenshots/(7).png" alt="(7)"/>
+  <img src="Screenshots/ (7).png" alt="(7)"/>
 </p>
 
 Adding the modified hello.html file to staging area using `git add` command and verifying the staged changes with `git status`.
 <p align="center">
-  <img src="Screenshots/(8).png" alt="(8)"/>
+  <img src="Screenshots/ (8).png" alt="(8)"/>
 </p>
 
 Starting the commit process with the `git commit` command to save the staged changes.
 <p align="center">
-  <img src="Screenshots/(9).png" alt="(9)"/>
+  <img src="Screenshots/ (9).png" alt="(9)"/>
 </p>
 
 Git commit editor window opened, showing the commit message template with the summary "Added h1 tag" and additional information about the changes to be committed.
 <p align="center">
-  <img src="Screenshots/(10).png" alt="(10)"/>
+  <img src="Screenshots/ (10).png" alt="(10)"/>
 </p>
 
 Successful commit with message "Added h1 tag" confirmed, followed by a clean status check showing no pending changes.
